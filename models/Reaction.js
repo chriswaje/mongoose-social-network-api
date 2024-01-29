@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema } = require('mongoose');
 
 // this is a subdocument schema for the "reactions" field in the Thought schema, not a model
 const reactionSchema = new Schema(
